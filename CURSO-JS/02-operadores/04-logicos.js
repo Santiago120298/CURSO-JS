@@ -10,6 +10,7 @@ console.log('operador AND', mayor && suscrito );
 /* indica que tiene que evaluar lo que esta a la derecha y a la
 izquierda lo cual responde a un boolean que sera = true or false*/
 
+
 //OR ││  ALT+124
 
 console.log('operador OR', mayor|| suscrito );
