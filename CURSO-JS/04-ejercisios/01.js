@@ -16,7 +16,8 @@ console.log (mayor);
 
 //MISMA SOLUCION PERO CON OPERADOR TERNARIO
 function cualEsMayorDos (a,b){
-    return a > b ? a : b
+    // si a es mayor que B si no
+    return (a > b) ? a : b
 }
 
 
