@@ -2,7 +2,7 @@
 
 //falso
 //false
-//00
+//0
 //''        FALSY
 //null
 //undefined

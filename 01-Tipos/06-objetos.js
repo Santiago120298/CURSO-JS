@@ -14,13 +14,13 @@ let personaje={
 }; //objeto literal
 
 console.log(personaje);
-console.log(personaje.nombre);
-console.log(personaje['anime']);
+console.log(personaje.nombre); // se usa el punto y el nombre de la propiedad para poder ver solo esa propiedad en consola
+console.log(personaje['anime']); //otra forma de  acceder a una propiedad de un objeto
 
-personaje.edad=13;
-personaje['edad']=13;
+personaje.edad=13;  // como cambiar el valor de la propiedad
+personaje['edad']=13; // // como cambiar el valor de la propiedad
 
-delete personaje.anime;
+delete personaje.anime; // como eliminar una porpiedad
 
-console.log(personaje)
+console.log(personaje);
 
